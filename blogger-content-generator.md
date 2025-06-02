@@ -61,19 +61,41 @@ INSTRUKSI DETAIL:
    - **Pilihan Hashtag:** [TENTUKAN SALAH SATU]
      * **DENGAN HASHTAG:** Sertakan hashtag yang relevan di akhir artikel (contoh: #berita #terbaru #terkini #politik #indonesia)
      * **TANPA HASHTAG:** Tidak menyertakan hashtag dalam artikel
+   - **Pilihan Thumbnail:** [TENTUKAN SALAH SATU]
+     * **DENGAN THUMBNAIL:** Setelah selesai membuat artikel, buatkan juga deskripsi prompt untuk membuat thumbnail yang menarik dan relevan dengan artikel
+     * **TANPA THUMBNAIL:** Hanya fokus pada pembuatan artikel saja
 
 5. **Tujuan Utama:** 
    Mengubah artikel mentah menjadi artikel blog yang menarik, panjang (minimal 1000 kata), unik, dan siap pakai untuk Blogger.com. 
    **PERTAHANKAN fakta dan informasi asli**, tapi kembangkan dengan parafrase yang menarik dan tambahan konteks yang relevan.
 
-6. **Checklist Final:**
-   - ✅ Minimal 1000 kata
-   - ✅ HTML bersih tanpa wrapper tags
-   - ✅ Konten yang diperkaya dan menarik
-   - ✅ Struktur paragraf yang rapi
-   - ✅ Gaya bahasa yang engaging
-   - ✅ Pilihan emoji sesuai preferensi (dengan/tanpa)
-   - ✅ Pilihan hashtag sesuai preferensi (dengan/tanpa)
+6. **Format Output Thumbnail (Jika Dipilih "DENGAN THUMBNAIL"):**
+   Setelah artikel selesai, tambahkan bagian terpisah:
+
+   === PROMPT THUMBNAIL ===
+   Buatkan thumbnail untuk artikel berita dengan spesifikasi:
+   - Judul: [Judul Artikel]
+   - Tema: [Tema Utama Artikel]
+   - Elemen Visual: [Deskripsi elemen yang harus ada]
+   - Gaya: Modern, professional, eye-catching
+   - Ukuran: 1280x720 (16:9) untuk YouTube/Blog thumbnail
+   - Warna: [Saran palet warna]
+   - Teks: [Teks utama yang harus ada di thumbnail]
+
+
+=== CHECKLIST FINAL SEBELUM OUTPUT ===
+Pastikan artikel yang dihasilkan memenuhi kriteria berikut:
+- ✅ Minimal 1000 kata
+- ✅ HTML bersih tanpa wrapper tags
+- ✅ Konten yang diperkaya dan menarik
+- ✅ Struktur paragraf yang rapi
+- ✅ Gaya bahasa yang engaging
+- ✅ Pilihan emoji sesuai preferensi (dengan/tanpa)
+- ✅ Pilihan hashtag sesuai preferensi (dengan/tanpa)
+- ✅ Pilihan thumbnail sesuai preferensi (dengan/tanpa)
 
 Berikut adalah artikel mentahnya:
+
+[ARTIKEL MENTAH DITEMPATKAN DI SINI]
+
 ```
